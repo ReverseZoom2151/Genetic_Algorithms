@@ -308,7 +308,7 @@ def q1():
     input("[Hit return to continue]\n")
 
 
-
+# Q2A.
 # ts (tournament size) makes a big difference - big ts improves search
 #   when ts is very large evolution is not entirely implemented - it is similar to hill climbing
 #   when ts is 1 it is performing random search
@@ -343,7 +343,7 @@ def q2a():
 
     input("[Hit return to continue]\n")
 
-
+# Q2B.
 # target length doesn't seem to make much difference if the rest of the parameters are standard
 #  a "floor effect" is observed - evolution finds all of the targets hard
 #  if tournament size is set to 3 then target length starts to make a difference
@@ -397,7 +397,7 @@ def q2b():
 
     input("[Hit return to continue]\n")
 
-
+# Q2C.
 # alphabet size seems to also not make much difference if the selection pressure is too weak (ts=2)
 #  again this is a "floor effect" - if ts=3 or ts=4 a clearer picture is seen
 #  if tournament size is set to 4 then alphabet size starts to slow evolution down
@@ -434,6 +434,7 @@ def q2c():
 
     input("[Hit return to continue]\n")
 
+# Q2D.
 # pop size has a straightforward positive effect on performance - but shows up differently for tournament size=2 or 3 or 4
     
 def q2d():
@@ -459,7 +460,7 @@ def q2d():
 
     input("[Hit return to continue]\n")
 
-
+# Q2E.
 # a change to the do_the_ga program is needed
 #  an easy one is to change the m=1/length command to mutation = m/length where m is a parameter that is passed to the function
 #  very low mutation rates can reach the solution but take longer
@@ -515,7 +516,7 @@ def q2e():
 
     input("[Hit return to continue]\n")
 
-
+# Q3A.
 # Elitism improves the performance of the GA
     
 def q3a():
@@ -550,6 +551,7 @@ def q3a():
 
     input("[Hit return to continue]\n")
 
+# Q3B.
 # Converged or random initial population doesn't make any difference...
 # This is because any initial diversity in the population collapses quickly
 #   wiping out the difference between the two scenarios.
@@ -584,6 +586,7 @@ def q3b():
 
     input("[Hit return to continue]\n")
 
+# Q3C.
 # Crossover straightforwardly improves performance
 # Uniform crossover might be a bit better? It might need several runs and a t-test?
     
@@ -630,6 +633,7 @@ def q3c():
 
     input("[Hit return to continue]\n")
 
+# Q4.
 #  It is shown how to look at how convergence changes over time for four different values of mutation probability
 #  In each case compared are how fitness changes over evolutionary time with how solution diversity changes over time
 #  "Diversity" could be measured in many ways but an easy one is how different is the current best solution from the current median solution (using the matches() function)
