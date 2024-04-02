@@ -1,4 +1,4 @@
-![image](https://github.com/ReverseZoom2151/Genetic_Algorithms/assets/78236499/6e5ed71e-3867-4f7e-a9b7-a9abc1e11f23)
+![image](https://github.com/ReverseZoom2151/Genetic_Algorithms/assets/78236499/59547b28-bd4d-43d1-a9ec-abf70b02f4c2)
 
 # 🧬 Methinks It Is Like A Weasel (GA - Lab 1) 🧬
 
