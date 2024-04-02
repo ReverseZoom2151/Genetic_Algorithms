@@ -10,4 +10,7 @@ This project is a Python implementation of a Genetic Algorithm (GA) that solves 
 - Exploration of the impact of different GA parameters on performance, including population size, tournament size, mutation rate, and alphabet size.
 - Analysis functions to visualize the performance and convergence of the algorithm over time.
 - Customizable target phrase and genetic alphabet to test the algorithm's versatility.
+- Demonstrates the evolution of strings towards a pre-defined target using selection, crossover, and mutation.
+- Allows tweaking of population size, mutation rate, crossover probability, and more to explore different evolutionary scenarios.
+- Includes matplotlib integration for visualizing the algorithm's performance and convergence over time.
 
