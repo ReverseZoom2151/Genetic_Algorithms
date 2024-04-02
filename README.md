@@ -4,13 +4,11 @@ This project is a Python implementation of a Genetic Algorithm (GA) that solves 
 
 ## Features
 
-- Implementation of standard genetic algorithm functions such as initialization, fitness assessment, parent selection, breeding, and mutation.
-- Various crossover methods (one-point, uniform, multi-point) to combine parent genotypes.
-- Support for elitism, ensuring the best solution is carried over to the next generation.
-- Exploration of the impact of different GA parameters on performance, including population size, tournament size, mutation rate, and alphabet size.
-- Analysis functions to visualize the performance and convergence of the algorithm over time.
-- Customizable target phrase and genetic alphabet to test the algorithm's versatility.
-- Demonstrates the evolution of strings towards a pre-defined target using selection, crossover, and mutation.
-- Allows tweaking of population size, mutation rate, crossover probability, and more to explore different evolutionary scenarios.
-- Includes matplotlib integration for visualizing the algorithm's performance and convergence over time.
+- **Standard Genetic Algorithm Functions:** Includes the core components such as initialization, fitness assessment, parent selection, breeding, and mutation, necessary for running a genetic algorithm.
+- **Crossover Methods:** Implements one-point, uniform, and multi-point crossover techniques to combine parent genotypes, enhancing the diversity of the population.
+- **Elitism Support:** Ensures that the best solution from one generation is always passed to the next, helping to maintain progress towards the target.
+- **Parameter Exploration:** Facilitates the examination of how varying the genetic algorithm parameters, such as population size, tournament size, mutation rate, and alphabet size, affects performance. This allows for fine-tuning the GA for optimal results.
+- **Performance and Convergence Analysis:** Integrated analysis functions and matplotlib support for visualizing the algorithm's progress and convergence over generations, providing insights into its efficiency and effectiveness.
+- **Customizability:** Allows users to set a customizable target phrase and genetic alphabet, demonstrating the algorithm's adaptability to different problems and scenarios.
+- **Interactive Exploration:** Supports adjustments to key GA parameters in real-time, offering an interactive way to explore various evolutionary scenarios and their outcomes.
 
