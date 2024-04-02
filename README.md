@@ -1,5 +1,3 @@
-![image](https://github.com/ReverseZoom2151/Genetic_Algorithms/assets/78236499/59547b28-bd4d-43d1-a9ec-abf70b02f4c2)
-
 # 🧬 Methinks It Is Like A Weasel (GA - Lab 1) 🧬
 
 This project is a Python implementation of a Genetic Algorithm (GA) that solves the _methinks it is like a weasel_ problem, inspired by the thought experiment proposed by Richard Dawkins in his book **"The Blind Watchmaker"**. The goal is to evolve a randomly generated string towards the target phrase ***"methinks it is like a weasel"*** through simulated evolution. It aims to showcase how a simple set of rules can lead to complex and organized outcomes, mirroring natural selection.
